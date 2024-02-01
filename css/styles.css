@@ -745,10 +745,12 @@ Header
   margin: 5rem 0;
   text-align: center; }
   .header .logo {
-    width: 280px;
+    /*width: 280px;*/
+    width: 320px;
     margin: 0 auto;
     position: relative; }
     .header .logo h1 {
+      /*letter-spacing: 0.2rem;*/
       letter-spacing: 2.2rem;
       text-align: center;
       font-size: 4rem;
@@ -815,6 +817,8 @@ Navbar
           -o-transition: .5s all;
           -moz-transition: .5s all;
           transition: .5s all; }
+          .nav ul li a.active {
+            color: #F5235D; }
 
 /*--------------------------------------------------
 General
@@ -1854,6 +1858,6 @@ Responsive
 
 /* additions */
 
-.logo {
-  padding: 7px;
+.links {
+  padding: 10px;
 }
